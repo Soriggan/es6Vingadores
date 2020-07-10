@@ -28,6 +28,20 @@ const thor = new Vingador(
   true
 );
 
+const starLord = new Vingador(
+  "Peter Quill",
+  "1.90",
+  "83kg"[
+    ("Ótimo Atirador",
+    "Mestre em Combate Corpo-a-Corpo",
+    "Grande Estrategista",
+    "Piloto",
+    "Conhecimento Universal")
+  ],
+  true,
+  false
+);
+
 document.getElementById("lutar").onclick = function () {
   thor.lutar();
 };
